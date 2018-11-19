@@ -6,6 +6,7 @@
 
 [Baskerville 3](https://hannahhaslem.github.io/john_baskerville/baskerville3.html)
 
+[Baskerville 4](https://hannahhaslem.github.io/john_baskerville/baskerville4.html)
 
 # History_of_Type
 
