@@ -14,3 +14,5 @@
 [History of Type 2](https://hannahhaslem.github.io/john_baskerville/history2.html)
 
 [History of Type 3](https://hannahhaslem.github.io/john_baskerville/history3.html)
+
+[History of Type 4](https://hannahhaslem.github.io/john_baskerville/history4.html)
