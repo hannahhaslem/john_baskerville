@@ -18,7 +18,10 @@ body{
      text-align: justify;
 }
 
+header {margin: 5em 0 3em 0}
+
 /* --------- TYPOGRAPHY -------*/
+
 h1, h2, h3 {
     font-weight: normal;
     color: #900c3f;
@@ -42,7 +45,7 @@ h2 {
 }
 
 h3 {
-    font-size: 2.5em;
+    font-size: 2.3em;
     margin: 0.5em 0;
     font-variant: small-caps;
     font-weight: bold;
@@ -61,6 +64,16 @@ header h2 {
     color: #c70039;
 }
 
+
+.intro {
+    margin: 2em 0 2em 0;
+    font-size: 1.20em;
+}
+
+.leader {
+    text-transform: uppercase;
+    color: #c70039;
+    font-size: 1.0em;}
 
 /* --------- STYLING LINKS ------- */
 
@@ -83,8 +96,8 @@ nav {
     margin: 0;
     width: 100%;
     background-color: #900c3f;
-    padding: 0.7em 0;
-    font-size: 1.1em;      
+    padding: 0.50em 0;
+    font-size: 1.2em;      
 }
 
 
