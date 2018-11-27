@@ -1,0 +1,351 @@
+/*------- VERSION 1 -------
+
+*//* --------- CSS RESET --------- */
+
+* {
+    padding: 0; 
+    margin: 0;
+    font-size:100%;
+    line-height: 0.9em;
+}
+
+/* --------- MAIN STYLING --------- */
+
+body{
+     width: 90%;
+     max-width: 620px;
+     margin: auto;
+     background: #fafafa;
+     color: #333;
+     font-family: 'Libre Baskerville', serif;
+}
+
+/* --------- TYPOGRAPHY -------*/
+h1, h2, h3 {
+    font-weight: normal;
+    color: #000000;
+    text-align: left;
+}
+
+p, li, blockquote {
+    margin-bottom: 1.5em;
+    line-height: 1.5;
+}
+
+.title1 {
+    text-transform: uppercase;
+    color: #000000;
+    margin-top: 7.0em;
+    text-align: left;
+    font-size: 0.6em;
+    margin-bottom: 0.9em;
+}
+ 
+.title2 {
+    text-align: left;
+    padding: 0px; 
+    font-size: 1.17em;
+    margin-top: -3.5em;
+    margin-bottom: 0em;  
+}
+
+.title3 {
+    font-style: italic;
+    font-size: 0.7em;
+    margin: -0.4em;
+    text-align: left;
+}
+
+
+.intro {
+    font-size: 1.11em;
+    text-align: left;
+    color: #000000;
+    margin-top: 2.5em;
+    font-variant: bold;
+}
+
+.intro2 {
+    font-size: 0.9em;
+    color: #000000;
+    font-weight: normal;
+    margin-top: 2.5em;
+    margin-bottom: 0.4em;
+}
+
+
+.intro3 {
+    font-size: 0.9em;
+    color: #000000;
+    font-weight: normal;
+    margin-top: 1.2em;
+}
+
+h1 {
+    font-size: 3.998em;
+    margin-top: 1em;
+    margin-bottom: 0.1em;
+}
+
+h2 {
+    font-size: 2.627em;
+    margin: 1em 0;
+}
+
+h3 {
+    font-size: 1.999em;
+}
+
+
+/*------- BLOCKQUOTE -------*/
+
+.quote1 {
+    padding: 0.05em;
+    font-size: 1.3em;
+    line-height: 1.2em;
+    color: #777;
+    font-style: italic;
+    margin-top: 2.0em;
+    font-weight: 550;
+    text-indent: -0.5em;
+}
+
+.cite1 {
+    font-size: 0.8em;
+    margin-top: 2.2em;
+    font-weight: 599;
+    margin-bottom: 3.5em;
+    text-indent: 0em;
+}
+
+/*------- FOOTER -------*/
+
+footer {
+    text-align: center;
+    font-size: 0.75em;
+    line-height: 1.5em;
+    padding: 2em 0 4em;
+}
+
+hr {
+    margin: 1em;
+    height: 1px;
+    background-color: hotpink;
+    border-color: hotpink;    
+    border: 1;
+}
+
+
+/*------- VERSION 2 -------*/
+
+* {
+    padding: 0; 
+    margin: 0;
+    font-size:100%;
+    line-height: 0.9em;
+}
+
+/* --------- MAIN STYLING --------- */
+
+body{
+     width: 90%;
+     max-width: 620px;
+     margin: auto;
+     background: #fafafa;
+     color: #333;
+     
+}
+/*------ HEADINGS -------*/
+
+.title4 {
+    text-transform: uppercase;
+    color: #000000;
+    margin-top: 7.0em;
+    text-align: left;
+    font-size: 0.6em;
+    margin-bottom: 0.1em;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.title5 {
+    text-align: left;
+    padding: 0em; 
+    margin-top: 0px;
+    font-size: 1.2em;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: -3.5em;
+
+}
+
+.title6 {
+    font-style: italic;
+    font-size: 0.8em;
+    margin-top: -1.5em;
+    text-align: left;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.intro4 {
+    font-size: 1.1em;
+    text-align: left;
+    color: #000000;
+    margin-top: 2.3em;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.leader{
+    text-transform: uppercase;
+}
+
+.intro5 {
+    font-size: 0.856em;
+    color: #000000;
+    font-weight: normal;
+    margin-top: 2.0em;
+    margin-bottom: 0.4em;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.intro6 {
+    font-size: 0.9em;
+    color: #000000;
+    font-weight: normal;
+    margin-top: -1.2em;
+    font-family: 'Open Sans', sans-serif;
+    text-indent: 1.5em;
+}
+
+
+/*------- BLOCKQUOTE -------*/
+
+.quote2 {
+    padding: 0.05em;
+    font-size: 1.3em;
+    line-height: 1.2em;
+    color: #777;
+    font-style: italic;
+    margin-top: 1.8em;
+    font-weight: 550;
+    font-family: 'Open Sans', sans-serif;
+    text-indent: -0.5em;
+}
+
+.cite2 {
+    font-size: 0.72em;
+    margin-top: 2.0em;
+    font-weight: 599;
+    margin-bottom: 3.5em;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    text-indent: 0em;
+    font-style: normal;
+}
+
+
+hr {
+    margin: 1em;
+    height: 0.5px;
+    background-color: hotpink;
+    border-color: hotpink;
+    border: 0.5;
+}
+/*------- VERSION 3 -------*/
+
+* {
+    padding: 0; 
+    margin: 0;
+    font-size:100%;
+    line-height: 0.9em;
+}
+
+/* --------- MAIN STYLING --------- */
+
+body{
+     width: 90%;
+     max-width: 620px;
+     margin: auto;
+     background: #fafafa;
+     color: #333;
+     
+}
+/*------ HEADINGS -------*/
+
+.title7 {
+    text-transform: uppercase;
+    color: #000000;
+    margin-top: 7.0em;
+    text-align: left;
+    font-size: 0.6em;
+    margin-bottom: 0.1em;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.title8 {
+    text-align: left;
+    padding: 0em; 
+    margin-top: 0px;
+    font-size: 1.2em;
+    font-family: 'Arvo', serif;
+    margin-top: -3.5em;
+
+}
+
+.title9 {
+    font-style: italic;
+    font-size: 0.83em;
+    margin-top: -1.5em;
+    text-align: left;
+    font-family: 'Arvo', serif;
+}
+
+.intro7 {
+    font-size: 1.1em;
+    text-align: left;
+    color: #000000;
+    margin-top: 2.3em;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 1.5em;
+}
+
+.intro8 {
+    font-size: 0.856em;
+    color: #000000;
+    font-weight: normal;
+    margin-top: 2.0em;
+    margin-bottom: -0.4em;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.intro9 {
+    font-size: 0.9em;
+    color: #000000;
+    font-weight: normal;
+    margin-top: 0.1em;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+/*------- BLOCKQUOTE -------*/
+
+.quote3 {
+    padding: 0.05em;
+    font-size: 1.35em;
+    line-height: 1.2em;
+    color: #777;
+    font-style: italic;
+    margin-top: 1.8em;
+    font-weight: 550;
+    font-family: 'Arvo', serif;
+    text-indent: -0.5em;
+}
+
+.cite3 {
+    font-size: 0.7em;
+    margin-top: 2.0em;
+    font-weight: 599;
+    margin-bottom: 3.5em;
+    font-family: 'Arvo', serif;
+    font-style: italic;
+    text-indent: 0em;
+    font-style: normal;
+}
