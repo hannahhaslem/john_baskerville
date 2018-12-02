@@ -1,5 +1,4 @@
 /*------- VERSION 1 -------
-
 *//* --------- CSS RESET --------- */
 
 * {
@@ -66,7 +65,7 @@ p, li, blockquote {
 }
 
 .intro2 {
-    font-size: 0.9em;
+    font-size: 0.91em;
     color: #000000;
     font-weight: normal;
     margin-top: 2.5em;
@@ -75,7 +74,7 @@ p, li, blockquote {
 
 
 .intro3 {
-    font-size: 0.9em;
+    font-size: 0.91em;
     color: #000000;
     font-weight: normal;
     margin-top: 1.2em;
@@ -96,7 +95,15 @@ h3 {
     font-size: 1.999em;
 }
 
-
+.dropcap {
+    float: left;
+    color: #000000;
+    font-size: 60px;
+    line-height: 20px;
+    padding-top: 2px;
+    padding-right: 1px;
+    font-family: 'Libre Baskerville', serif;
+}
 /*------- BLOCKQUOTE -------*/
 
 .quote1 {
@@ -107,7 +114,6 @@ h3 {
     font-style: italic;
     margin-top: 2.0em;
     font-weight: 550;
-    text-indent: -0.5em;
 }
 
 .cite1 {
@@ -227,7 +233,6 @@ body{
     margin-top: 1.8em;
     font-weight: 550;
     font-family: 'Open Sans', sans-serif;
-    text-indent: -0.5em;
 }
 
 .cite2 {
@@ -336,7 +341,6 @@ body{
     margin-top: 1.8em;
     font-weight: 550;
     font-family: 'Arvo', serif;
-    text-indent: -0.5em;
 }
 
 .cite3 {
