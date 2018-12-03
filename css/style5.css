@@ -1,0 +1,228 @@
+/* --------- CSS RESET --------- */
+
+* {
+    padding: 0; 
+    margin: 0;
+    font-size: 98%;
+    line-height: 1em;
+}
+
+/* --------- MAIN STYLING --------- */
+
+body{
+     width: 75%;
+     max-width: 670px;
+     margin: auto;
+     background: #fafafa;
+     color: #333;
+     font-family: 'Libre Baskerville', serif;
+     text-align: justify;
+}
+
+/* --------- TYPOGRAPHY -------*/
+h1, h2, h3 {
+    font-weight: normal;
+    color: #cc0066;
+    text-align: center;
+}
+
+p, li, blockquote {
+    margin-bottom: 1.5em;
+    line-height: 1.5;
+}
+
+h1 {
+    font-size: 3.998em;
+    margin-top: 1em;
+    margin-bottom: 0.1em;
+    text-shadow: 2px 2px #000;
+}
+
+h2 {
+    font-size: 2.627em;
+    margin-top: 0.7em;
+    margin-bottom: 0.7em;
+}
+
+h3 {
+    font-size: 1.999em;
+}
+
+blockquote{
+    hanging-punctuation: first;
+    text-indent: -0.1em;
+}
+
+header h2 {
+    font-style: italic;
+    font-size: 2.5em;
+    line-height: 1.5em;
+    margin-top: 0.1em;
+    margin-bottom: 1.1em;
+    color: #333;
+}
+
+/* --------- STYLING LINKS ------- */
+
+a {
+    color: #c06;
+    text-decoration: none;
+}
+
+a:hover {
+    color: blueviolet;
+    border-bottom: 1px dotted;
+}
+
+/*------- NAVIGATION -------*/
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 0;
+    width: 100%;
+    background-color: #c06;
+    padding: 0.8em 0;
+    font-size: 0.90em;      
+}
+
+nav ul {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+nav ul li {
+    display: inline;
+    margin: 20px;
+}
+
+nav a:link {color: #fff;}
+
+nav a:visited {color: #fff;}
+
+nav a:hover {
+    border-bottom: none;
+    color: #000;
+    transition: all 0.3s ease-in-out;
+}
+
+/*------- BLOCKQUOTE -------*/
+
+blockquote {
+    padding: 0.05em;
+    font-size: 1.2em;
+    line-height: 1.2em;
+    color: #555;
+    font-weight: bold;
+}
+
+blockquote cite {
+    font-size: 0.75em;
+}
+
+
+/*------- IMAGES -------*/
+
+img {
+    display: block;
+    margin: 2em auto;
+    padding: 0;
+    max-width: 100%;
+}
+
+/*------- FOOTER -------*/
+
+footer {
+    text-align: center;
+    font-size: 0.75em;
+    line-height: 1.5em;
+    padding: 2em 0 4em;
+}
+
+hr {
+    margin: 1em 0;
+    height: 1px;
+    background-color: #333;
+    color: #333;
+    border: 0 none;
+}
+
+
+/* -------- TABLE -------*/
+
+table {
+    margin: auto;
+    display: table;
+    border-collapse: collapse;
+    border-spacing: 2px;
+    margin-bottom: 2em;
+}
+
+table tr{
+    color: #000000;
+    border-color: #000000;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #c06;
+    color: #ffffff;
+    text-align: center;
+    font-size: 1.25em;
+    font-variant: normal;
+}
+
+caption {
+    margin-bottom: 1.4em;
+    line-height: 1.4em;
+}
+
+tr:nth-child(even) {
+    background-color: #E8E9E8;
+}
+
+/*------ ICONS --------*/
+
+.connections {
+   position: relative;
+    margin: o auto;
+    margin: 15px, 0;
+}
+
+.connections ul {
+  margin: 0;
+  padding 0;
+}
+
+.connections li {
+    margin: 0 15px;
+    padding: 0;
+    list-style: none;
+    display: inline-block;
+}
+
+.connection a:link {
+    border-bottom: none;
+}
+
+.connections img {
+   opacity: 0.6;
+    border: none;
+    height: 4.5em;
+    widows: 4.5em;
+}
+
+.connections a:hover img {
+    opacity: 1.0;
+    border-bottom: none;
+    transition: all 0.3s ease-in-out;
+    transform: scale(1.1);
+}
+
+
